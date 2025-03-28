@@ -6,7 +6,7 @@ from bot.config import Telegram
 API_ID = Telegram.API_ID
 API_HASH = Telegram.API_HASH
 BOT_TOKEN = Telegram.BOT_TOKEN
-AUTH_CHANNEL = Telegram.AUTH_CHANNEL  # The force-subscribe channel
+AUTH_CHANNEL = Telegram.CHANNELID  # The force-subscribe channel
 
 # Initialize client
 client = TelegramClient("test_session", API_ID, API_HASH).start(bot_token=BOT_TOKEN)
